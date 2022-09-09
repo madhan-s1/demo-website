@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%
+}
+
+.clear  {
+    clear: both;
+}
+nav h1{
+    font-size: 5rem;
+    color: aliceblue;
+    padding-bottom: 1rem;
+    
+}
+nav{
+    font-size: 5rem;
+    background-color: rgb(61,  81, 102);
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+a{  
+    font-size: 3rem;
+    color: aliceblue    ;
+    text-decoration: none;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    float: left;
+    margin: 1rem;
+    list-style: none;
+}
+
+section {
+    color: black;
+    background-image: url(/food-website/pexels-ray-piedra-1565982.jpg);
+    height: 100rem; 
+    background-position: center;
+    text-align: center;
+}
+
+
+.king{
+    text-align: center;
+    font-style: italic;
+    font-size: 5rem;
+    color: white;
+    margin: auto;
+    padding-top: 30rem;
+    text-shadow: 10px 3px 3px black;
+
+
+}
+
+.home{
+    color: white;
+    font-style: italic;
+    margin: 1rem;
+    padding-top: 0rem;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow:10px 3px 3px rgb(0, 0, 0);
+
+}
+
+
+.buy{
+    border: none;
+    background-color: rgb(107, 60, 154);
+    padding: 1rem 2.5rem;
+    border-radius: 5px;
+}
+
+nav{
+    font-size: 1rem;
+}
+
+.contact{
+    font-size: 3rem;
+    font-style: oblique;
+    padding-top: 2rem;
+    text-align: center;
+}
+form{
+    text-align: center;
+
+}
+
+form input, form label, textarea {
+    padding-top: 1rem;
+    font-size: 2rem;
+    display: block;
+}
+
+form input{
+    margin: auto;
+}
+form label, form textarea {
+    margin: auto;
+}
+
+
+.submit{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    border: none;
+    background-size: auto;
+    padding: 1rem 2.5rem;
+    border-radius: 5px;
+    border-top-style: groove;
+
+}
